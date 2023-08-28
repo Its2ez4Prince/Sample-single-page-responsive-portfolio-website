@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/93a36344c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/download.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+            <p>Developer/Designer</p>
+            <nav>
+                <h1>Hey<span style="font-size: 33px;"> 👋</span>, I'm <span>Prince</span> <br> Kumar From India</h1>
+            </nav>
+            <p class="quote">I design and develop experiences that makes your life simple.</p>
+        </div>
+    </div>
+</div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/WhatsApp_Image_2023-08-22_at_14.12.23-removebg-preview.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Real Time Problem Solver, Developer, Content Writer and Student.
+                (All these are enough to describe about my Passion)
+                Honesty, Emotionally Intelligent and Determination describes me the best.
+                This is Prince Kumar, Born & Brought up in Patna, Bihar. Recent graduate in Information Science Engineering from
+                Acharya Institute of Technology. Contact me at msprince1435@gmail.com if you find me inactive here.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br> C++ <br> Python <br>
+                        JavaScript <br> HTML <br>CSS </li>
+                        <li><span>Databases</span><br>SQl <br>MySQL <br>MongoDB </li>
+                        <li><span>Frameworks & API</span><br>Node.js <br> Express.js</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Internship at Varcons Technologies. <br> Full Stack Web developer intern.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>10th from St. Karen's High School Patna,Bihar.</li>
+                        <li><span>2018</span><br>12th from Adarsh vikas Vidyalaya Danapur, Bihar</li>
+                        <li><span>2023</span><br>B.E. in ISE from Acharya Institute Of Technology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------services---- -->
+
+<div id="interests">
+    <div class="container">
+        <h1 class="sub-title">Career Interests</h1>
+        <div class="interests-list">
+            <div>
+                <i class="fa-solid fa-bug"></i>
+                <h2>Software development</h2><br>
+                <p>During my studies, I have gained knowledge in networking, coding, design, and system security. I am an organized and
+                motivated individual with a strong sense of ethics and an eagerness to succeed.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Development</h2><br>
+                <p>I have been working as a web developer for quite some time now. I believe I am a very ambitious person who loves to
+                work on making the website work well. Working on the web is my passion as I love to work on exciting projects.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-fork"></i>
+                <h2>Data Science</h2><br>
+                <p>My expertise lies in data modelling, data mining, and statistical analysis, and I'm proficient in Python, SQLI have a
+                strong passion for using data to drive business decisions, and I'm excited about the potential of data science
+                that can make a positive impact on people lives.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------portfolio -------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Network instrusion detection system</h3>
+                    <p>Created an website that eliminates malicious activity on the network which helps in detection of anomalies.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Ai based license plate detector</h3>
+                    <p>Created an website that eliminates malicious activity on the network which helps in detection of anomalies.</p>
+                    <a href="https://github.com/Its2ez4Prince/AI-Based-License-Plate-Detector"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Sorting visualizer</h3>
+                    <p>Created an website that eliminates malicious activity on the network which helps in detection of anomalies.</p>
+                    <a href="https://github.com/Its2ez4Prince/Sorting-Visualiser"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Its2ez4Prince?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------------------contact------------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> msprince1435@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +91-7091896476</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/__princewa__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Le_me_tweet"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/prince-kumar-465bb0160/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Its2ez4Prince"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Prince_resume_I.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name= "Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Prince®. All rights reserved.</p>
+    </div>
+</div>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemen=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemen.style.right="0";
+    }
+    function closemenu() {
+        sidemen.style.right = "-170px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxBsTY1cDmGfy77SuBkw3sDJlIELKviDGRTy6qAA8E856dahtwAA8BRNnOaejI7KjSiFw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent succefully!!";
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
